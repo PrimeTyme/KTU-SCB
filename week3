@@ -1,0 +1,45 @@
+public class Variable {
+    public static void main(String[] args) {
+        //Comments
+        //Single line comments
+        //Multi-line comment
+        /*
+        System.out.println("Hello World");
+        System.out.println("Hello World");
+        System.out.println("Hello World");
+         */
+
+        //Declaring a variable
+        int age;
+        double amount;
+
+        //Assigning Value
+         age = 10;
+         amount = 100.90;
+
+         //Initialization of a variable
+        String name = "John Doe";
+
+
+        //Data types
+
+        //Casting
+        //Types of Casting
+        //1. Automatic Casting
+        //2. Manual Casting
+
+        int a = 10;
+        double b = a;
+        System.out.println(b);
+
+
+        //Manual Casting
+        double c = 10;
+        int d = (int)c;
+        System.out.println(d);
+
+
+
+
+    }
+}
